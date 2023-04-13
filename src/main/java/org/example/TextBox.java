@@ -46,4 +46,5 @@ private final By submintButton= By.id("submit");// кнопка отправит
     public void waitForLoad(By selector) {
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(selector));
     }
+
 }
